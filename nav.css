@@ -15,7 +15,7 @@ nav {
   background-color: white;
 }
 
-nav ul {
+/* nav ul {
   width: 40%;
   display: flex;
   justify-content: space-between;
@@ -33,7 +33,7 @@ nav ul a:hover {
 
 nav li {
   margin: 10px;
-}
+} */
 
 .logo-image {
   display: flex;
@@ -59,6 +59,16 @@ nav li {
 .hamburger {
   display: none;
   cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: white;
 }
 
 @media (max-width: 768px) {
