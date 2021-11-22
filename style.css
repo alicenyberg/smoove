@@ -47,23 +47,23 @@ hero {
 .products {
   width: 1440px;
   height: 764px;
-  background-color: red;
+  background-color: rgb(219, 154, 154);
 }
 
 .specifications {
-  background-color: aqua;
+  background-color: rgb(119, 177, 177);
   width: 1440px;
   height: 764px;
 }
 
 .order {
-  background-color: blueviolet;
+  background-color: rgb(156, 124, 185);
   width: 1440px;
   height: 764px;
 }
 
 .merch {
-  background-color: chartreuse;
+  background-color: rgb(151, 177, 125);
   width: 1440px;
   height: 764px;
 }
