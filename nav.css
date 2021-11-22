@@ -1,4 +1,4 @@
-nav {
+/* nav {
   height: 125px;
   display: flex;
   align-items: baseline;
@@ -13,7 +13,7 @@ nav {
   top: 0;
   z-index: 1;
   background-color: white;
-}
+} */
 
 /* nav ul {
   width: 40%;
@@ -35,9 +35,46 @@ nav li {
   margin: 10px;
 } */
 
-.logo-image {
+/* .logo-image {
   display: flex;
-  /* top: 10px; */
+  top: 10px;
+  font-size: 2rem;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cormorant SC", serif;
+}
+
+header {
+  background-color: #8b8b8b;
+  top: 0;
+  position: sticky;
+  z-index: 1;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-branding {
   font-size: 2rem;
 }
 
@@ -93,7 +130,7 @@ nav li {
 
   .nav-menu {
     position: fixed;
-    left: -100%;
+    left: 100%;
     top: 70px;
     gap: 0;
     flex-direction: column;
