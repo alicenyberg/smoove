@@ -9,7 +9,7 @@ body {
   max-width: 100vw;
   width: 100vw;
   overflow-x: hidden;
-  background-color: white;
+  background-color: var(--color-white);
 }
 
 hero {
@@ -25,7 +25,7 @@ hero {
 .hero-image img {
   width: 100%;
   max-width: 100%;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .hero-heading {
