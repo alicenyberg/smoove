@@ -1,0 +1,26 @@
+.footer-div {
+  display: flex;
+  align-items: row;
+  justify-content: space-evenly;
+  margin: 40px;
+  padding: 20px;
+  letter-spacing: 1px;
+}
+
+.footer-section {
+  padding: 10px;
+}
+
+.footer-section h3 {
+  font-size: 25px;
+}
+
+.input-field input {
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+
+.input-field h3 {
+  font-size: 25px;
+}
