@@ -39,9 +39,30 @@ hero {
 }
 
 .hero-text {
+  display: flex;
+  flex-direction: column;
+
   position: absolute;
-  top: 17px;
+  top: 50px;
   left: 50px;
+}
+.hero-text h1 {
+  margin-top: 40px;
+  color: white;
+  text-align: left;
+  font-size: 48px;
+}
+.hero-text button {
+  margin-top: 100px;
+  width: 160px;
+  height: 40px;
+  background-color: var(--color-almost-green);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  padding-left: 0;
 }
 
 .products {
