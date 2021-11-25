@@ -55,22 +55,26 @@ body {
   margin-top: 70px;
   width: 160px;
   height: 40px;
-  background-color: var(--color-grey);
+  background-color: #2b2b2b00;
   color: white;
   border-radius: 10px;
-  border: none;
+  border: solid var(--color-almost-green);
   font-size: 17px;
   cursor: pointer;
   padding-left: 10px;
 }
 
-.hero-text button:hover {
-  background-color: var(--color-light-grey);
+.hero-text button .arrow {
+  font-size: 1.5rem;
 }
 
-.hero-text button:hover .arrow {
-  color: var(--color-almost-green);
+.hero-text button:hover {
+  background-color: var(--color-almost-green);
 }
+
+/* .hero-text button:hover .arrow {
+  color: var(--color-almost-green);
+} */
 
 .products {
   width: 1440px;
