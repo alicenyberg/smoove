@@ -28,6 +28,7 @@ a {
 }
 
 .navbar {
+  width: 100%;
   min-height: 70px;
   display: flex;
   justify-content: space-between;
@@ -56,6 +57,20 @@ a {
 
 .nav-link:hover {
   color: var(--color-almost-green);
+}
+
+.nav-btn {
+  border-style: solid;
+  border-color: var(--color-white);
+  padding: 9px;
+  border-radius: 10px;
+}
+
+.nav-btn:hover {
+  padding: 9px;
+  border-style: solid;
+  border-color: var(--color-almost-green);
+  border-radius: 10px;
 }
 
 /* .logo-image #element-01 {
