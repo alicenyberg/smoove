@@ -49,16 +49,23 @@ body {
   font-size: 48px;
 }
 .hero-text button {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   margin-top: 100px;
   width: 160px;
   height: 40px;
-  background-color: var(--color-almost-green);
+  background-color: var(--color-grey);
   color: white;
   border-radius: 10px;
   border: none;
   font-size: 17px;
   cursor: pointer;
-  padding-left: 0;
+  padding-left: 10px;
+}
+
+.hero-text button:hover .arrow {
+  color: var(--color-almost-green);
 }
 
 .products {
