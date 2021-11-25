@@ -82,11 +82,6 @@ a {
 }
 
 @media (max-width: 768px) {
-  .shoe-logo {
-    width: 130px;
-    height: 40;
-  }
-
   .hamburger {
     display: block;
   }
