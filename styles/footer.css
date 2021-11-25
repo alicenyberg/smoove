@@ -31,10 +31,9 @@
 
 @media (max-width: 768px) {
   .footer-div {
+    /* justify-items: center; */
+    justify-items: first baseline;
     max-width: 414px;
-    /* display: flex;
-    align-items: column;
-    justify-content: space-evenly; */
     display: grid;
     grid-template-columns: 1fr;
     margin: 10px;
@@ -53,5 +52,14 @@
     border-bottom: 2px solid black;
     padding: 5px;
     width: 190px;
+  }
+
+  .footer-section p {
+    padding: 0px;
+    padding-left: 0;
+  }
+
+  .footer-section .footer-info {
+    margin-left: 0px;
   }
 }
