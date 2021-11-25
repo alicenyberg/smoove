@@ -8,7 +8,7 @@
 }
 
 header {
-  background-color: var(--color-almost-black);
+  background-color: var(--color-black);
   top: 0;
   position: sticky;
   z-index: 1;
