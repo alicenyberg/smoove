@@ -72,6 +72,10 @@ body {
   background-color: var(--color-almost-green);
 }
 
+.hero-text button:hover {
+  transition: 0.5s ease-in;
+}
+
 /* .hero-text button:hover .arrow {
   color: var(--color-almost-green);
 } */
