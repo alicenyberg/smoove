@@ -101,6 +101,11 @@ a {
   background-color: var(--color-white);
 }
 
+header .hamburger .bar:last-child {
+  width: 12.5px;
+  margin-right: 0px;
+}
+
 .social-media-icons {
   display: none;
 }
@@ -124,6 +129,8 @@ a {
 
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+    width: 25px;
+    /* margin-right: 0px; */
   }
 
   .nav-menu {
