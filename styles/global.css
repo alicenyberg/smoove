@@ -1,7 +1,9 @@
 :root {
   /* Font sizes */
   --hero-text-mobile: 50px;
+  --product-text-mobile: 40px;
   --h1-large: 2.25rem;
+  --large: 180px;
   --h1: 1.5rem;
   --nav-link-size: 20px;
   --p: 1rem;
