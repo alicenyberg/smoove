@@ -126,8 +126,9 @@ body {
   .products .products-text {
     width: 300px;
     height: 200px;
-    margin-left: 30px;
-    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--color-black);
     color: var(--color-white);
   }
 
@@ -136,8 +137,35 @@ body {
   }
 
   .products-text p {
+    padding-top: 10px;
     font-size: var(--nav-link-size);
     color: var(--color-almost-green);
+  }
+
+  .products .range {
+    width: 380px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--color-black);
+    color: var(--color-white);
+  }
+
+  .range h2 {
+    height: 200px;
+    text-align: center;
+    font-size: var(--large);
+    color: var(--color-almost-green);
+  }
+
+  .range h3 {
+    font-size: var(--product-text-mobile);
+  }
+
+  .range h3,
+  .range p {
+    margin-left: 25px;
+    padding-bottom: 15px;
   }
 
   .specifications {
@@ -158,5 +186,7 @@ body {
   .hero-text button {
     margin-left: 4rem;
     margin-top: 315px;
+    /* font-size: 14px;
+    padding-left: 0px; */
   }
 }
