@@ -35,7 +35,6 @@
 
 @media (max-width: 768px) {
   .footer-div {
-    /* justify-items: center; */
     justify-items: first baseline;
     max-width: 414px;
     display: grid;
@@ -47,19 +46,18 @@
   }
 
   .footer-section h3 {
-    font-size: 12px;
+    font-size: 20px;
     padding: 5px;
     padding-left: 0;
   }
 
   .footer-section input {
-    border: none;
-    border-bottom: 2px solid black;
     padding: 5px;
     width: 190px;
   }
 
   .footer-section p {
+    font-size: 12px;
     padding: 0px;
     padding-left: 0;
   }
