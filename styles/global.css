@@ -1,5 +1,6 @@
 :root {
   /* Font sizes */
+  --hero-text-mobile: 50px;
   --h1-large: 2.25rem;
   --h1: 1.5rem;
   --nav-link-size: 20px;
