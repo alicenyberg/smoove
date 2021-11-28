@@ -86,7 +86,7 @@ body {
 /* ---specifications css--- */
 
 .specifications {
-  background-color: rgb(119, 177, 177);
+  background-color: var(--color-black);
   width: 1440px;
   height: 764px;
 }
@@ -180,7 +180,7 @@ body {
 
   .specifications {
     width: 414px;
-    height: 1219px;
+    height: 1030px;
   }
 
   .specifications h3 {
@@ -191,14 +191,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-size: var(--product-text-mobile);
-    background-color: rgb(138, 34, 34);
+    background-color: none;
     color: var(--color-white);
   }
 
   .specifications-text {
     width: 360px;
     height: 400px;
-    background-color: rgb(138, 34, 34);
+    background-color: none;
     margin-left: auto;
     margin-right: auto;
     color: var(--color-white);
@@ -214,31 +214,20 @@ body {
     text-align: center;
     font-size: var(--large);
     color: var(--color-almost-green);
-    background-color: rgb(78, 78, 78);
+    background-color: none;
   }
 
-  .button-area {
-    width: 260px;
-    height: 40px;
-    background-color: rgb(78, 78, 78);
+  .button-holder {
+    width: 360px;
+    height: 62px;
+    background-color: none;
     margin-left: auto;
     margin-right: auto;
     padding-top: 22px;
   }
 
-  /* .specifications-text button {
-    width: 260px;
-    height: 40px;
-    background-color: blue;
-    color: var(--color-white);
-  } */
-
-  /* .hero-text button {
-    align-items: center;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    margin-top: 70px;
-    width: 160px;
+  .specifications-text button {
+    width: 360px;
     height: 40px;
     background-color: #2b2b2b00;
     color: white;
@@ -248,10 +237,6 @@ body {
     cursor: pointer;
     padding-left: 10px;
   }
-  
-  .hero-text button .arrow {
-    font-size: 1.5rem;
-  } */
 
   .order {
     width: 414px;
@@ -266,7 +251,5 @@ body {
   .hero-text button {
     margin-left: 4rem;
     margin-top: 315px;
-    /* font-size: 14px;
-    padding-left: 0px; */
   }
 }
