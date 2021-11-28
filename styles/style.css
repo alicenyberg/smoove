@@ -105,6 +105,7 @@ body {
   .hero-image {
     max-height: 753px;
   }
+
   .hero-text .mobile-text {
     display: unset;
     margin-top: 40px;
@@ -118,12 +119,11 @@ body {
     display: none;
   }
 
-  /* products css */
+  /* ---products css--- */
 
   .products {
     width: 414px;
-    height: 1200px;
-    /* padding-top: 0px; */
+    height: 1250px;
     padding: 0px;
     background-color: var(--color-almost-black);
   }
@@ -174,9 +174,16 @@ body {
     padding-bottom: 15px;
   }
 
+  /* ---specifications css--- */
+
   .specifications {
     width: 414px;
     height: 1219px;
+  }
+
+  .specifications h3 {
+    text-align: center;
+    font-size: var(--product-text-mobile);
   }
 
   .order {
