@@ -83,6 +83,8 @@ body {
   background-color: rgb(219, 154, 154);
 }
 
+/* ---specifications css--- */
+
 .specifications {
   background-color: rgb(119, 177, 177);
   width: 1440px;
@@ -182,9 +184,74 @@ body {
   }
 
   .specifications h3 {
-    text-align: center;
+    text-align: left;
+    width: 360px;
+    height: 150px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: var(--product-text-mobile);
+    background-color: rgb(138, 34, 34);
+    color: var(--color-white);
   }
+
+  .specifications-text {
+    width: 360px;
+    height: 400px;
+    background-color: rgb(138, 34, 34);
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--color-white);
+  }
+
+  .specifications-text p {
+    padding-top: 20px;
+  }
+
+  .specifications-text h4 {
+    padding: 0px;
+    height: 180px;
+    text-align: center;
+    font-size: var(--large);
+    color: var(--color-almost-green);
+    background-color: rgb(78, 78, 78);
+  }
+
+  .button-area {
+    width: 260px;
+    height: 40px;
+    background-color: rgb(78, 78, 78);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 22px;
+  }
+
+  /* .specifications-text button {
+    width: 260px;
+    height: 40px;
+    background-color: blue;
+    color: var(--color-white);
+  } */
+
+  /* .hero-text button {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 70px;
+    width: 160px;
+    height: 40px;
+    background-color: #2b2b2b00;
+    color: white;
+    border-radius: 10px;
+    border: solid var(--color-almost-green);
+    font-size: 17px;
+    cursor: pointer;
+    padding-left: 10px;
+  }
+  
+  .hero-text button .arrow {
+    font-size: 1.5rem;
+  } */
 
   .order {
     width: 414px;
