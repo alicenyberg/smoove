@@ -240,7 +240,8 @@ body {
   /* ---Section css--- */
   .order {
     width: 414px;
-    height: 622px;
+    height: 500px;
+    background-color: var(--color-almost-black);
   }
 
   .order h4 {
@@ -251,7 +252,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-size: var(--product-text-mobile);
-    background-color: greenyellow;
+    background-color: none;
     color: var(--color-white);
   }
 
@@ -262,15 +263,103 @@ body {
     padding-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    /* font-size: var(--product-text-mobile); */
-    background-color: rgb(255, 95, 47);
+    font-size: var(--product-text-mobile);
+    background-color: none;
     color: var(--color-white);
     font-size: var(--nav-link-size);
   }
 
+  .order .email-holder {
+    width: 360px;
+    height: 70px;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: var(--product-text-mobile);
+    background-color: none;
+    color: var(--color-white);
+    font-size: var(--nav-link-size);
+  }
+
+  .order input {
+    width: 360px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    background-color: #8f8f8f;
+    color: var(--color-white);
+  }
+
+  ::placeholder {
+    color: var(--color-white);
+    font-size: 1.2em;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='17' viewBox='0 0 20 17' fill='white' fill-rule='evenodd'%3E%3Cpath d='M18 0.5H2C0.9 0.5 0.00999999 1.4 0.00999999 2.5L0 14.5C0 15.6 0.9 16.5 2 16.5H18C19.1 16.5 20 15.6 20 14.5V2.5C20 1.4 19.1 0.5 18 0.5ZM18 14.5H2V4.5L10 9.5L18 4.5V14.5ZM10 7.5L2 2.5H18L10 7.5Z'%3E%3C/path%3E%3C/svg%3E")
+      right / contain no-repeat;
+  }
+
+  .button-notify {
+    width: 360px;
+    height: 62px;
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 22px;
+  }
+
+  .button-notify button {
+    width: 160px;
+    height: 40px;
+    background-color: #2b2b2b00;
+    color: white;
+    border-radius: 10px;
+    border: solid var(--color-white);
+    font-size: 17px;
+    cursor: pointer;
+    padding-left: 10px;
+  }
+
+  /* ---Merch css--- */
   .merch {
     width: 414px;
-    height: 764px;
+    height: 2060px;
+    background-color: var(--color-black);
+  }
+
+  .merch-02 {
+    width: 362px;
+    height: 531px;
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .merch-02 img {
+    padding-top: 50px;
+  }
+
+  .merch-03 {
+    width: 362px;
+    height: 511px;
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .merch-03 img {
+    padding-top: 30px;
+  }
+
+  .merch-04 {
+    width: 362px;
+    height: 511px;
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .merch-04 img {
+    padding-top: 30px;
   }
 
   .hero-text button {
