@@ -237,10 +237,35 @@ body {
     cursor: pointer;
     padding-left: 10px;
   }
-
+  /* ---Section css--- */
   .order {
     width: 414px;
-    height: 764px;
+    height: 622px;
+  }
+
+  .order h4 {
+    text-align: left;
+    width: 360px;
+    height: 180px;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: var(--product-text-mobile);
+    background-color: greenyellow;
+    color: var(--color-white);
+  }
+
+  .order p {
+    text-align: left;
+    width: 360px;
+    height: 110px;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    /* font-size: var(--product-text-mobile); */
+    background-color: rgb(255, 95, 47);
+    color: var(--color-white);
+    font-size: var(--nav-link-size);
   }
 
   .merch {
