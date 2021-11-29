@@ -83,32 +83,6 @@ body {
   background-color: rgb(219, 154, 154);
 }
 
-@property --num {
-  syntax: "<integer>";
-  initial-value: 860;
-  inherits: false;
-}
-
-.count {
-  animation: counter 1.5s ease;
-  animation-iteration-count: 1;
-  counter-reset: num var(--num);
-  font: 800 40px system-ui;
-  padding: 2rem;
-}
-
-.count::after {
-  content: counter(num);
-}
-
-@keyframes counter {
-  from {
-    --num: 0;
-  }
-  to {
-    --num: 860;
-  }
-}
 /* ---specifications css--- */
 
 .specifications {
@@ -185,7 +159,7 @@ body {
     color: var(--color-white);
   }
 
-  .range .count {
+  .range h2 {
     height: 200px;
     text-align: center;
     font-size: var(--large);
