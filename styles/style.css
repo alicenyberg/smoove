@@ -101,6 +101,75 @@ body {
   background-color: rgb(151, 177, 125);
   width: 1440px;
   height: 764px;
+  margin: 0 auto;
+}
+
+.merchwrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  background-color: var(--color-almost-black);
+  height: 481px;
+  min-width: 300px;
+  width: 362px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.merch .card img {
+  width: 330px;
+  height: 330px;
+  border-radius: 10px;
+  margin-bottom: 120px;
+}
+
+.merch button {
+  align-items: center;
+  display: flex;
+  width: 330px;
+  height: 43px;
+  background-color: var(--color-light-grey);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  justify-content: center;
+}
+.merch button .arrow {
+  font-size: 1.5rem;
+}
+
+.merch button:hover {
+  background-color: var(--color-grey);
+}
+
+.merch button:hover {
+  transition: 0.5s ease-in;
+}
+.merch button::after {
+  background-color: var(--color-almost-green);
+}
+
+.merch button:hover .arrow {
+  color: var(--color-almost-green);
+}
+
+.merch .merchnames {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 40px;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
