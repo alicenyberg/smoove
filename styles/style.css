@@ -98,7 +98,7 @@ body {
 }
 
 .merch {
-  background-color: rgb(151, 177, 125);
+  background-color: var(--color-black);
   width: 1440px;
   height: 764px;
   margin: 0 auto;
@@ -393,46 +393,24 @@ body {
     width: 414px;
     height: 2060px;
     background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
   }
 
-  .merch-02 {
-    width: 362px;
-    height: 531px;
-    background-color: none;
-    margin-left: auto;
-    margin-right: auto;
+  .merchwrap {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+  .merchnames {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
-  .merch-02 img {
-    padding-top: 50px;
-  }
-
-  .merch-03 {
-    width: 362px;
-    height: 511px;
-    background-color: none;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .merch-03 img {
-    padding-top: 30px;
-  }
-
-  .merch-04 {
-    width: 362px;
-    height: 511px;
-    background-color: none;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .merch-04 img {
-    padding-top: 30px;
-  }
-
-  .hero-text button {
-    margin-left: 4rem;
-    margin-top: 315px;
+  .merchnames button {
+    width: 300px;
+    height: 43px;
   }
 }
