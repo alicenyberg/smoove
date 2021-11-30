@@ -109,7 +109,7 @@ body {
 
 .merch {
   background-color: var(--color-black);
-  width: 1440vw;
+  width: 1440px;
   height: 764px;
   margin: 0 auto;
   display: flex;
