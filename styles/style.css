@@ -117,7 +117,7 @@ body {
   width: 100vw;
   flex-direction: row;
   flex-wrap: nowrap;
-  gap: 10px;
+  gap: 30px;
 }
 
 .card {
@@ -137,14 +137,14 @@ body {
   width: 330px;
   height: 330px;
   border-radius: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .merch button {
   align-items: center;
   display: flex;
   width: 330px;
-  height: 45px;
+  height: 40px;
   background-color: var(--color-light-grey);
   color: white;
   border-radius: 10px;
@@ -153,6 +153,13 @@ body {
   cursor: pointer;
   justify-content: center;
 }
+
+.merch h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: var(--color-white);
+}
+
 .merch button .arrow {
   font-size: 1.5rem;
 }
