@@ -160,7 +160,55 @@ body {
 .specifications {
   background-color: var(--color-black);
   width: 1440px;
-  height: 764px;
+  height: 846px;
+}
+
+.specifications .specifications-desktop-view {
+  display: grid;
+  grid-template-columns: 35rem 1fr;
+  height: 830px;
+}
+
+.specifications-desktop-view .specifications-desktop-left {
+  background-color: none;
+  padding-left: 50px;
+}
+
+.specifications-desktop-view .specifications-desktop-left h2 {
+  color: var(--color-white);
+  padding-top: 40px;
+  font-size: 3rem;
+}
+
+.specifications-desktop-view .specifications-desktop-left p {
+  color: var(--color-white);
+  padding-top: 20px;
+  font-size: 17px;
+}
+
+.specifications-desktop-view .specifications-desktop-left h3 {
+  color: var(--color-almost-green);
+  background-color: none;
+  font-size: 15rem;
+}
+
+.specifications-desktop-view .specifications-desktop-left button {
+  width: 310px;
+  height: 40px;
+  background-color: #2b2b2b00;
+  color: var(--color-white);
+  border-radius: 10px;
+  border: solid var(--color-almost-green);
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.specifications-desktop-view .specifications-desktop-right {
+  background-color: rgb(1, 41, 92);
+}
+
+.specifications .specifications-mobile-view {
+  display: none;
 }
 
 .order {
@@ -331,6 +379,14 @@ body {
   }
 
   /* ---specifications css--- */
+
+  .specifications .specifications-mobile-view {
+    display: inherit;
+  }
+
+  .specifications .specifications-desktop-view {
+    display: none;
+  }
 
   .specifications {
     width: 414px;
