@@ -204,7 +204,7 @@ body {
 }
 
 .specifications-desktop-view .specifications-desktop-right {
-  background-color: rgb(1, 41, 92);
+  background-color: none;
 }
 
 .specifications .specifications-mobile-view {
@@ -212,10 +212,83 @@ body {
 }
 
 .order {
-  background-color: rgb(156, 124, 185);
+  background-color: var(--color-almost-black);
   width: 100%;
-  height: 764px;
+  height: 655px;
 }
+
+.order .order-text {
+  display: none;
+}
+
+.order .order-desktop-view {
+  display: grid;
+  grid-template-columns: 34rem 1fr;
+  /* height: 550px; */
+}
+
+.order-desktop-view .order-desktop-left {
+  background-color: none;
+}
+
+.order-desktop-view .order-desktop-right {
+  background-color: none;
+  padding-left: 23%;
+  padding-top: 110px;
+}
+
+.order-desktop-view .order-desktop-right h4 {
+  background-color: none;
+  width: 580px;
+  font-size: 4.2rem;
+  color: var(--color-white);
+}
+
+.order-desktop-view .order-desktop-right p {
+  font-size: 20px;
+  color: var(--color-white);
+  padding-top: 30px;
+  line-height: 1.5;
+}
+
+.order-desktop-right .email-and-button {
+  width: 520px;
+  height: 62px;
+  background-color: none;
+  margin-top: 70px;
+}
+
+.email-and-button input {
+  width: 340px;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+  background-color: #8f8f8f;
+  color: var(--color-white);
+}
+
+.email-and-button button {
+  width: 160px;
+  height: 40px;
+  background-color: #2b2b2b00;
+  color: white;
+  border-radius: 10px;
+  border: solid var(--color-almost-green);
+  font-size: 17px;
+  cursor: pointer;
+  margin-left: 10px;
+  /* padding-left: 20px; */
+}
+
+.email-and-button input::placeholder {
+  color: var(--color-white);
+  font-size: 1.2em;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='17' viewBox='0 0 20 17' fill='white' fill-rule='evenodd'%3E%3Cpath d='M18 0.5H2C0.9 0.5 0.00999999 1.4 0.00999999 2.5L0 14.5C0 15.6 0.9 16.5 2 16.5H18C19.1 16.5 20 15.6 20 14.5V2.5C20 1.4 19.1 0.5 18 0.5ZM18 14.5H2V4.5L10 9.5L18 4.5V14.5ZM10 7.5L2 2.5H18L10 7.5Z'%3E%3C/path%3E%3C/svg%3E")
+    right / contain no-repeat;
+}
+
+/* --- Merch section--- */
 
 .merch {
   background-color: var(--color-black);
@@ -337,7 +410,7 @@ body {
     height: 250px;
     margin-left: auto;
     margin-right: auto;
-    background-color: green;
+    background-color: none;
     color: var(--color-white);
   }
 
@@ -447,11 +520,19 @@ body {
     cursor: pointer;
     padding-left: 10px;
   }
-  /* ---Section css--- */
+  /* ---order css--- */
   .order {
     width: 414px;
     height: 500px;
     background-color: var(--color-almost-black);
+  }
+
+  .order .order-desktop-view {
+    display: none;
+  }
+
+  .order .order-text {
+    display: inherit;
   }
 
   .order h4 {
