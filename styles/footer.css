@@ -34,11 +34,15 @@
 }
 
 footer img {
-  width: 1440px;
+  width: 100%;
   height: 570px;
 }
 
 @media (max-width: 768px) {
+  footer .footer-img {
+    display: none;
+  }
+
   .footer-div {
     justify-items: first baseline;
     max-width: 414px;
