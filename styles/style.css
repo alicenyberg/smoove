@@ -80,8 +80,7 @@ body {
 /* ---Products css--- */
 
 .products {
-  /* width: 1280px; */
-  max-width: 100vw;
+  width: 100%;
   height: 865px;
   background-color: rgb(219, 154, 154);
 }
@@ -118,15 +117,18 @@ body {
 
 .order {
   background-color: rgb(156, 124, 185);
-  width: 1440px;
+  width: 100%;
   height: 764px;
 }
 
 .merch {
   background-color: var(--color-black);
-  width: 1440px;
+  /* width: 1440px; */
+  width: 100%;
   height: 764px;
   margin: 0 auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   display: flex;
 }
 
