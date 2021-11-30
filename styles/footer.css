@@ -33,6 +33,11 @@
   width: 300px;
 }
 
+footer img {
+  width: 1440px;
+  height: 570px;
+}
+
 @media (max-width: 768px) {
   .footer-div {
     justify-items: first baseline;
