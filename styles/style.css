@@ -77,10 +77,16 @@ body {
   color: var(--color-almost-green);
 } */
 
+/* ---Products css--- */
+
 .products {
   width: 1440px;
   height: 764px;
   background-color: rgb(219, 154, 154);
+}
+
+.products .products-text {
+  display: none;
 }
 
 /* ---specifications css--- */
