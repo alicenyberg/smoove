@@ -74,4 +74,8 @@ footer img {
   .footer-section .footer-info {
     margin-left: 0px;
   }
+
+  footer img {
+    display: none;
+  }
 }
