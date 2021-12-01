@@ -203,6 +203,11 @@ body {
   cursor: pointer;
 }
 
+.specifications-desktop-view .specifications-desktop-left button:hover {
+  background-color: var(--color-almost-green);
+  transition: 0.5s ease-in;
+}
+
 .specifications-desktop-view .specifications-desktop-right {
   background-color: none;
 }
@@ -281,6 +286,10 @@ body {
   /* padding-left: 20px; */
 }
 
+.email-and-button button:hover {
+  background-color: var(--color-almost-green);
+  transition: 0.5s ease-in;
+}
 .email-and-button input::placeholder {
   color: var(--color-white);
   font-size: 1.2em;
