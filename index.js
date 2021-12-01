@@ -13,14 +13,19 @@ document.querySelectorAll(".nav-link").forEach((n) =>
   })
 );
 
+// const intFrameWith = window.innerWidth;
+// console.log(intFrameWith);
+
+const intFrameWith = screen.width;
+console.log(intFrameWith);
+
 window.addEventListener("scroll", function () {
   showFunction();
 });
 
 function showFunction() {
-  //   console.log(windowpos);
-  // console.log(jQuery(document.body).width());
-  if (document.body.width() > 768) {
+  //   console.log(windowpos);document.body.width
+  if (intFrameWith > 768) {
     if (document.body.scrollTop > 2 || document.documentElement.scrollTop > 2) {
       document.getElementById("desktop-text").style.display = "block";
     } else {
