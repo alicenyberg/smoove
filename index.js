@@ -12,3 +12,16 @@ document.querySelectorAll(".nav-link").forEach((n) =>
     navMenu.classList.remove("active");
   })
 );
+
+window.addEventListener("scroll", function () {
+  showFunction();
+});
+
+function showFunction() {
+  //   console.log(windowpos);
+  if (document.body.scrollTop > 2 || document.documentElement.scrollTop > 2) {
+    document.getElementById("desktop-text").style.display = "block";
+  } else {
+    document.getElementById("desktop-text").style.display = "none";
+  }
+}

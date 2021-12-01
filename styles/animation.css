@@ -1,0 +1,13 @@
+.hero-text .desktop-text {
+  animation: fadeEffect 1.5s;
+}
+
+@keyframes fadeEffect {
+  /* from 0 to full opacity */
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
