@@ -344,7 +344,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* -----Test---- */
+/* -----Test Card Hover---- */
 .merch .card .textOverImage {
   position: relative;
   width: 300px;
@@ -451,8 +451,15 @@ body {
 }
 
 @media (max-width: 768px) {
+  /* ---Hero Section--- */
   .hero-image {
     max-height: 753px;
+  }
+
+  .hero-text button {
+    position: relative;
+    margin-top: 310px;
+    margin-left: 80px;
   }
 
   .hero-text .mobile-text {
