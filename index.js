@@ -45,9 +45,9 @@ function showFunction() {
   //   console.log(windowpos);document.body.width
   if (intFrameWith > 768) {
     if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
-      document.getElementById("desktop-text").style.display = "block";
+      document.getElementById("desktop-text-holder").style.display = "block";
     } else {
-      document.getElementById("desktop-text").style.display = "none";
+      document.getElementById("desktop-text-holder").style.display = "none";
     }
   }
 }

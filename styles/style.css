@@ -41,7 +41,7 @@ body {
   font-size: 70px;
 }
 
-.hero-text .mobile-text {
+.hero-text .desktop-mobile-holder {
   display: none;
 }
 
@@ -50,7 +50,7 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr;
   margin-top: 70px;
-  width: 160px;
+  width: 250px;
   height: 40px;
   background-color: #2b2b2b00;
   color: white;
@@ -459,11 +459,14 @@ body {
   .hero-text button {
     position: relative;
     margin-top: 310px;
-    margin-left: 80px;
+    margin-left: 40px;
+  }
+
+  .hero-text .desktop-mobile-holder {
+    display: unset;
   }
 
   .hero-text .mobile-text {
-    display: unset;
     margin-top: 40px;
     text-align: left;
     /* font-size: 32px; */
@@ -471,9 +474,13 @@ body {
     font-size: var(--hero-text-mobile);
   }
 
-  .hero-text .desktop-text {
+  .hero-text .desktop-text-holder {
     display: none;
   }
+
+  /* .hero-text .desktop-text-holder {
+    display: none;
+  } */
 
   /* ---products css--- */
 
