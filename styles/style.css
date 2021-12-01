@@ -235,6 +235,10 @@ body {
 .order-desktop-view .order-desktop-left {
   background-color: none;
 }
+.order-desktop-view .order-desktop-left img {
+  width: 560px;
+  height: 655px;
+}
 
 .order-desktop-view .order-desktop-right {
   background-color: none;
