@@ -19,9 +19,12 @@ window.addEventListener("scroll", function () {
 
 function showFunction() {
   //   console.log(windowpos);
-  if (document.body.scrollTop > 2 || document.documentElement.scrollTop > 2) {
-    document.getElementById("desktop-text").style.display = "block";
-  } else {
-    document.getElementById("desktop-text").style.display = "none";
+  // console.log(jQuery(document.body).width());
+  if (document.body.width() > 768) {
+    if (document.body.scrollTop > 2 || document.documentElement.scrollTop > 2) {
+      document.getElementById("desktop-text").style.display = "block";
+    } else {
+      document.getElementById("desktop-text").style.display = "none";
+    }
   }
 }
