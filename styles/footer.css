@@ -24,6 +24,11 @@
   padding-left: 0;
 }
 
+.footer-section .language {
+  position: absolute;
+  width: 4px;
+}
+
 .footer-section input {
   background-color: var(--color-black);
   color: var(--color-white);
@@ -77,5 +82,14 @@ footer img {
 
   footer img {
     display: none;
+  }
+
+  .footer-section .language {
+    width: 54px;
+    background-color: none;
+    height: 14px;
+    position: relative;
+    bottom: 380px;
+    left: 250px;
   }
 }
