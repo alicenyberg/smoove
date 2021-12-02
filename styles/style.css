@@ -208,6 +208,12 @@ body {
   background-color: none;
 }
 
+.specifications-desktop-view .specifications-desktop-right img {
+  margin-left: 0;
+  width: 880px;
+  height: 845px;
+}
+
 .specifications .specifications-mobile-view {
   display: none;
 }
@@ -231,6 +237,7 @@ body {
 .order-desktop-view .order-desktop-left {
   background-color: none;
 }
+
 .order-desktop-view .order-desktop-left img {
   width: 560px;
   height: 655px;
@@ -545,6 +552,10 @@ body {
   .specifications {
     width: 414px;
     height: 1030px;
+  }
+  .specifications img {
+    width: 414px;
+    height: 376px;
   }
 
   .specifications h3 {
