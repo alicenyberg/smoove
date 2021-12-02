@@ -707,7 +707,7 @@ body {
   /* ---Merch css--- */
   .merch {
     width: 414px;
-    height: 2060px;
+    height: 1640px;
     background-color: var(--color-black);
     display: flex;
     flex-direction: column;
