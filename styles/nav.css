@@ -56,8 +56,8 @@ a {
 }
 
 .nav-branding .logo-image {
-  width: 123px;
-  height: 19px;
+  width: 210px;
+  height: 30px;
 }
 
 .nav-link:hover {
@@ -113,6 +113,11 @@ header .hamburger .bar:last-child {
 @media (max-width: 768px) {
   header {
     padding: 0px;
+  }
+
+  .nav-branding .logo-image {
+    width: 123px;
+    height: 19px;
   }
 
   .hamburger {
