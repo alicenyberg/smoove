@@ -73,10 +73,6 @@ body {
   transition: 0.5s ease-in;
 }
 
-/* .hero-text button:hover .arrow {
-  color: var(--color-almost-green);
-} */
-
 /* ---Products css--- */
 
 .products {
@@ -287,7 +283,6 @@ body {
   font-size: 17px;
   cursor: pointer;
   margin-left: 10px;
-  /* padding-left: 20px; */
 }
 
 .email-and-button button:hover {
@@ -305,12 +300,9 @@ body {
 
 .merch {
   background-color: var(--color-black);
-  /* width: 1440px; */
   width: 100%;
   height: 764px;
   margin: 0 auto;
-  /* margin-left: auto;
-  margin-right: auto; */
   display: flex;
 }
 
@@ -344,7 +336,8 @@ body {
   margin-bottom: 20px;
 }
 
-/* -----Test Card Hover---- */
+/* -----Card Hover---- */
+
 .merch .card .textOverImage {
   position: relative;
   width: 300px;
@@ -352,12 +345,10 @@ body {
   border-radius: 10px;
   margin-bottom: 20px;
   float: left;
-  /* margin: 4px; */
   background-size: 100%;
   background-position: center;
   transition: 0.5s;
   overflow: hidden;
-  /* border-radius: 4px; */
   box-shadow: 0 0 4px #000;
 }
 
@@ -392,7 +383,6 @@ body {
   content: attr(data-text);
   transition: 0.5s;
   padding-top: 2em;
-  /* padding-left: 2em; */
   margin-top: 18px;
   transform: translateY(100%);
   opacity: 0;
@@ -409,6 +399,7 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   transition: 0.5s;
 }
+
 /* -------END-------- */
 
 .merch button {
@@ -452,6 +443,7 @@ body {
 
 @media (max-width: 768px) {
   /* ---Hero Section--- */
+
   .hero-image {
     max-height: 753px;
   }
@@ -469,7 +461,6 @@ body {
   .hero-text .mobile-text {
     margin-top: 40px;
     text-align: left;
-    /* font-size: 32px; */
     max-width: 180px;
     font-size: var(--hero-text-mobile);
   }
@@ -477,10 +468,6 @@ body {
   .hero-text .desktop-text-holder {
     display: none;
   }
-
-  /* .hero-text .desktop-text-holder {
-    display: none;
-  } */
 
   /* ---products css--- */
 
@@ -614,7 +601,9 @@ body {
     cursor: pointer;
     padding-left: 10px;
   }
+
   /* ---order css--- */
+
   .order {
     width: 414px;
     height: 500px;
@@ -705,6 +694,7 @@ body {
   }
 
   /* ---Merch css--- */
+
   .merch {
     width: 414px;
     height: 1640px;
