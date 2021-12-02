@@ -36,18 +36,39 @@ console.log(intFrameWith);
 
 // const intFrameWith = jQuery(window).width();
 // console.log(intFrameWith);
+// console.log(windowpos);document.body.width
 
 window.addEventListener("scroll", function () {
   showFunction();
 });
 
 function showFunction() {
-  //   console.log(windowpos);document.body.width
   if (intFrameWith > 768) {
     if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
       document.getElementById("desktop-text-holder").style.display = "block";
     } else {
       document.getElementById("desktop-text-holder").style.display = "none";
+    }
+  }
+}
+
+// ----Specifications animation---
+
+window.addEventListener("scroll", function () {
+  showFunction2();
+});
+
+function showFunction2() {
+  if (intFrameWith > 768) {
+    if (
+      document.body.scrollTop > 1000 ||
+      document.documentElement.scrollTop > 1000
+    ) {
+      document.getElementById("specifications-desktop-left").style.display =
+        "block";
+    } else {
+      document.getElementById("specifications-desktop-left").style.display =
+        "none";
     }
   }
 }

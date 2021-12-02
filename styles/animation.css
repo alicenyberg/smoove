@@ -2,6 +2,10 @@
   animation: fadeEffect 1.5s;
 }
 
+.specifications-desktop-left {
+  animation: fadeEffect 2.5s;
+}
+
 @keyframes fadeEffect {
   /* from 0 to full opacity */
   from {
