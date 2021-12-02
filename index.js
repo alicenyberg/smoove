@@ -31,11 +31,11 @@ document.querySelectorAll(".nav-link").forEach((n) =>
 //   })
 //   .resize();
 
-// const intFrameWith = screen.width;
-// console.log(intFrameWith);
-
-const intFrameWith = jQuery(window).width();
+const intFrameWith = window.innerWidth;
 console.log(intFrameWith);
+
+// const intFrameWith = jQuery(window).width();
+// console.log(intFrameWith);
 
 window.addEventListener("scroll", function () {
   showFunction();
