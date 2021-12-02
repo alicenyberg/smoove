@@ -13,30 +13,7 @@ document.querySelectorAll(".nav-link").forEach((n) =>
   })
 );
 
-// const intFrameWith = window.innerWidth;
-// console.log(intFrameWith);
-
-// jQuery(window)
-//   .resize(function () {
-//     var winwidth = jQuery(window).width();
-//     var winheight = jQuery(window).height();
-//     var docwidth = jQuery(document).width();
-//     var docheight = jQuery(document).height();
-//     console.log(
-//       "window width is -> " + winwidth + "window height is -> " + winheight
-//     );
-//     console.log(
-//       "document width is -> " + docwidth + "document height is -> " + docheight
-//     );
-//   })
-//   .resize();
-
 const intFrameWith = window.innerWidth;
-console.log(intFrameWith);
-
-// const intFrameWith = jQuery(window).width();
-// console.log(intFrameWith);
-// console.log(windowpos);document.body.width
 
 window.addEventListener("scroll", function () {
   showFunction();
