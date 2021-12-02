@@ -7,7 +7,6 @@
 }
 
 @keyframes fadeEffect {
-  /* from 0 to full opacity */
   from {
     transform: translateX(-100%);
   }
