@@ -723,6 +723,10 @@ body {
 
   /* ---Merch css--- */
 
+  .merch-header {
+    display: none;
+  }
+
   .merch {
     width: 414px;
     height: 1640px;
