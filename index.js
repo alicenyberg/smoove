@@ -50,20 +50,20 @@ function showFunction2() {
   }
 }
 
-var $root = $("html, body");
+// var $root = $("html, body");
 
-$('a[href^="#"]').click(function () {
-  var href = $.attr(this, "href");
+// $('a[href^="#"]').click(function () {
+//   var href = $.attr(this, "href");
 
-  $root.animate(
-    {
-      scrollTop: $(href).offset().top,
-    },
-    900,
-    function () {
-      window.location.hash = href;
-    }
-  );
+//   $root.animate(
+//     {
+//       scrollTop: $(href).offset().top,
+//     },
+//     900,
+//     function () {
+//       window.location.hash = href;
+//     }
+//   );
 
-  return false;
-});
+//   return false;
+// });
