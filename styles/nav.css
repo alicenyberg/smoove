@@ -78,10 +78,6 @@ a {
   border-radius: 10px;
 }
 
-/* .logo-image #element-01 {
-  fill: rgb(61, 219, 166);
-} */
-
 .nav-branding .logo-image:hover #element {
   fill: var(--color-almost-green);
 }
@@ -135,7 +131,6 @@ header .hamburger .bar:last-child {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
     width: 25px;
-    /* margin-right: 0px; */
   }
 
   .nav-menu {
@@ -166,17 +161,9 @@ header .hamburger .bar:last-child {
   .nav-menu .social-media-icons {
     display: inline-flex;
     offset-distance: 70px;
-    /* display: unset; */
-    /* justify-content: space-evenly; */
-    /* padding: 20rem; */
-    /* margin-top: 50px; */
   }
 
   .social-media-icons img {
-    /* display: flex; */
-    /* justify-content: space-evenly; */
-    /* justify-content: flex-end; */
-    /* padding: 20rem; */
     margin-top: 120px;
     padding: 2rem;
   }
